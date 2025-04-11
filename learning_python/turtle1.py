@@ -1,4 +1,4 @@
-from turtle import *   
-shape("turtle")         
-forward(100)            
-done()                  
+import turtle
+turtle.shape("turtle")         
+turtle.forward(100)            
+turtle.done()                  
