@@ -16,7 +16,7 @@ def dispPhoto(path):
   #そのイメージをラベルに表示する
   imageData = PIL.ImageTk.PhotoImage(newImage)
   imageLabel.configure(image = imageData)
-  imageLabel.image = imageData
+  imageLabel.image = imageData                      #画像を300x300にリサイズして「ラベルに表示できるデータ」に変換し表示している
 
 def openFile():                           #ファイルダイアログを開くための関数
   fpath = fd.askopenfilename()            #ファイルダイアログを開いて、選択したファイル名を取得する
