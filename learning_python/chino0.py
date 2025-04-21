@@ -1,4 +1,4 @@
-# chino0.pyでは画像の取得と変換を実装する(判別は実装していない)
+# chino0.pyでは画像の取得と表示を実装する(機械学習は実装していない)
 
 import tkinter as tk
 import tkinter.filedialog as fd
